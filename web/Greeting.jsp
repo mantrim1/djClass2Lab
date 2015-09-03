@@ -12,6 +12,6 @@
         <title>Class 2 Lab</title>
     </head>
     <body>
-        <h1>${greeting}</h1>
+        ${greeting}
     </body>
 </html>
