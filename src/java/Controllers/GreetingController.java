@@ -34,7 +34,7 @@ public class GreetingController extends HttpServlet {
  protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String name = request.getParameter("name");
+        String name = request.getParameter("inputName");
         WelcomeService service = new WelcomeService();
         request.setAttribute("greeting",service.welcomeGreeting(name));
 
